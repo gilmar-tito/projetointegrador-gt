@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/estilo.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: aquamarine;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        <DIV class="botoes">
+          <a class="button button1" href="index.html">HOME</a>
+          <a class="button button2" href="maketingpessoal.html">DICAS DE MARKETING PESSOAL</a>
+          <a class="button button3" href="fazer_cadastro.html">COMO FAZER SEU CADASTRO</a>  
+          <a class="button button4" href="formulario.html">CADASTRO</a>
+          <a class="button button5" href="DUVIDAS.HTML">DEIXA SUAS DÚVIDAS</a>        
+        </header>
+
+
+<div class="header">
+  <h2>DICAS DE MARKETING PESSOAL</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#ccc;">
+    <h3>O QUE É MARKETING PESSOAL</h3>
+    <p>O marketing pessoal e profissional são fundamentais para se destacar no mercado de trabalho em muitos aspectos.
+
+        Para fazer o marketing pessoal é preciso saber exatamente quais são suas características para ter como aperfeiçoar seus pontos fortes e corrigir os fracos. </p>
+</div>
+  <div class="column" style="background-color:#ffffff;">
+    <H3>COMO DESENVOLVER SEU MARKETING PESSOAL.</H3>
+    <P>Entre tantos profissionais, é muito importante que você saiba destacar as suas habilidades em seu currículo e nas plataformas digitais. Por isso, é fundamental disponibilizar de forma clara as suas informações profissionais para que os recrutadores possam te encontrar e se interessem pela sua trajetória. As redes sociais podem ser um bom veículo para esse objetivo – e por isso é fundamental que você tenha cuidado com as suas postagens.</P>
+</div>
+  <div class="column" style="background-color:#ccc;">
+    <H3>OBJETIVO DO MARKETING PESSOAL</H3>
+    <P>Fazer um bom marketing pessoal não tem apenas a intenção de “vender uma boa imagem” para o mercado, mas passar credibilidade em relação às habilidades e competências que você realmente possui. Isso aumenta a confiabilidade em relação aos bons resultados do seu trabalho e abre muitas portas para futuras oportunidades.</P>
+</div>
+
+</div>
+<footer>
+    <img src="./imagens/provectosenhora.png" alt="logo rodape">
+    <!-- <p>Footer</p> -->
+</footer>
+</body>
+</html>
+
+

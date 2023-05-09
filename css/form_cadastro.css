@@ -1,0 +1,28 @@
+body{
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 20px;
+    border:2px solid;
+    
+}
+label, button{
+    display:block;
+    border-radius: 15px;
+}
+textarea{
+border-radius: 15px;
+}
+button{
+    background-color: crimson;
+    color: azure;
+}
+input,textarea{
+    width: 100%;
+    border-radius: 15px;    
+}
+form{
+    padding: 20px;
+    margin: 20px;
+    border:2px solid;  
+    border-radius: 6px;
+}

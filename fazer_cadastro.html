@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/estilo.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: aquamarine;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="botoes"> 
+          <a class="button button1" href="index.html">HOME</a>
+          <a class="button button2" href="maketingpessoal.html">DICAS DE MARKETING PESSOAL</a>
+          <a class="button button3" href="fazer_cadastro.html">COMO FAZER SEU CADASTRO</a>  
+          <a class="button button4" href="formulario.html">CADASTRO</a>
+          <a class="button button5" href="DUVIDAS.HTML">DEIXA SUAS DÚVIDAS</a> 
+        </div>      
+        </header>
+
+
+<div class="header">
+  <h2>COMO FAZER SEU CADASTRO</h2>
+  <h2>EM NOSSO SITE PASSO A PASSO</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#36bdf333;">
+    <h3>PRIMEIRO PASSO</h3>
+    <p>Leia nossa pagina inicial para conhecer nossa história e nossos objetivos e analisar se podemos corresponder aos seus objetivos</p>
+</div>
+  <div class="column" style="background-color:#36bdf373;"><h3>SEGUNDO PASSO</h3>
+<P>Leia nossas dicas de  marketing pessoal para entender os pontos necessários que você precisa ressaltar para seu perfil se destacar entre os cadastrados em nossos banco de dados e aumentar a possibilidade de alguma empresa parceira se interessar pelo que você tem a oferecer como profissional.</P></div>
+  <div class="column" style="background-color:#36bdf3c0;"><h3>TERCEIRO PASSO</h3>
+<P>Pegue toda sua documentação, todos seus comprovantes de cursos e capacitações, sua carteira de trabalho para apresentar suas experiências profissionais, acesse nosso link CADASTRO acima e é só preencher cada campo. Qualquer duvida é só deixar seu comentário no menu DEIXE SUAS DUVIDAS se for algo urgente pode entrar em contato pelos whatsapp que você encontrará no menu CONTATOS. BOA SORTE</P></div>
+</div>
+<footer>
+    <p>Footer</p>
+</footer>
+</body>
+</html>
