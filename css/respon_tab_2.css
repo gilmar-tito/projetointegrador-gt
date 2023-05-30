@@ -1,0 +1,33 @@
+@media only screen and (max-width: 719px) {
+    body{
+        width: 90%;
+            background-color: cornsilk;
+            padding: 20px;
+            margin: 20px;
+            border:2px solid;
+    }
+    header{
+        text-align: center;
+    }
+    
+    .button{
+        background-color: #000000; /* Green */
+        border: 1px solid white;
+        border-radius: 6px;
+        color: white;
+        padding: 15px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 3px 1px;
+        cursor: pointer;
+        width: 250px;
+    }
+    .button:hover{
+        background-color: #ca95038c;
+        color: black;
+        border: 1px solid black;
+    }
+  
+    }

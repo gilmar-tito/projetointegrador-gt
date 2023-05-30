@@ -1,0 +1,99 @@
+@media only screen and (max-width: 719px) {
+    body{
+        width: 90%;
+    }
+    .logo, header{
+        text-align: center;
+    
+    }
+ 
+    .button{
+        background-color: #000000; /* Green */
+        border: 1px solid white;
+        border-radius: 6px;
+        color: white;
+        padding: 15px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 3px 1px;
+        cursor: pointer;
+        width: 250px;
+    }
+    .button:hover{
+        background-color: #ca95038c;
+        color: black;
+        border: 1px solid black;
+    }
+    .tituloindex1, .tituloindex2, .titulo1, .titulo2, .titulo3{
+        color: rgb(250, 206, 8); background-color: rgba(2, 2, 2, 0.945);
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 50px;
+    
+    }  
+
+    .titulos{
+        margin-left: 2px;
+        border: 6px solid rgb(236, 220, 4);
+        font-size: 20px;
+        border-radius: 10px;  
+        text-align: center;
+     
+    }
+
+
+    .fonte1, .fonte2, .fonte3, p{
+        font-size: 18px;
+        text-align: justify;        
+    }
+
+    img{
+        width: 80%;
+        height: auto;    
+    }
+
+    .logo{
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .passo1{
+        font-size: 20px;
+        text-align: justify ;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 20px;
+        background-color: rgba(168, 251, 251, 0.419);
+
+    }  
+    
+    .passo2{
+        font-size: 20px;
+        text-align: justify ;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 20px;
+        background-color: rgba(145, 236, 250, 0.842);
+        border: 5px solid white;
+        border-radius: 6px;
+        
+    } 
+    .passo3{
+        font-size: 20px;
+        text-align: justify ;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 20px;
+        background-color: rgba(1, 183, 255, 0.633);
+        border: 5px solid white;
+        border-radius: 6px;
+
+}
+.passo1, .passo2, .passo3{
+    padding: 10px;
+}
+
+}
+/* Fim Responsive Web Design - Media Queries para celular */

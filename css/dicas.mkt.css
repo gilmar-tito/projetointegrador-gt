@@ -1,4 +1,5 @@
 @media only screen and (min-width: 720px) {
+
 .button{
     background-color: #000000; /* Green */
     border: 1px solid white;
@@ -12,57 +13,58 @@
     margin: 3px 1px;
     cursor: pointer;
 }
-.button:hover{
+.button1:hover{
     background-color: #ca95038c;
     color: black;
     border: 1px solid black;
+
 }
-.logo{
-    text-align: center;
-}        
+.button2:hover{
+    background-color: #ca95038c;
+    color: black;
+}
+.button3:hover{
+    background-color: #ca95038c;
+    color: black;
+}
+.button4:hover{
+    background-color: #ca95038c;
+    color: black;
+}
+.button5:hover{
+    background-color: #ca95038c;
+    color: rgb(0, 0, 0);
+}
+      
 .botoes{
     text-align: center;
 }
 body{
-    /* margin: 0px 50px 20px 0px;
-    margin-left: 20px; */
-    background-image: url("../imagens/colmeia.png");
+    margin: 0px 50px 20px 0px;
+    margin-left: 20px;
+    background-image: url("../");
     background-repeat: no-repeat;    
-    background-position: right top;
- 
-}
-div{
-    background-color: rgba(127, 255, 212, 0);
-
   
 }
-img{
-    width: 90%;
-    height: auto;    
+div{
+    background-color: rgba(241, 226, 7, 0);
 }
 
-.fonte1, .fonte2{
+.fonte1, .fonte2, .fonte3, p {
     font-size: 30px;
     text-align: justify;
     margin-left: 2px;
     margin-right: 2px;
 }
 
-.tituloindex1, .tituloindex2{
+.titulo1, .titulo2, .titulo3{
     color: rgb(250, 206, 8); background-color: rgba(2, 2, 2, 0.945);
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 50px;
-
-}  
-
-.rodapé {
-    text-align: center;
-    margin-top: 100px;
 }
 
-
-
-
+ .logosenhora{
+    align-items: center;
+ }
 }
-/* fim do Responsive Web Design - Media Queries */
