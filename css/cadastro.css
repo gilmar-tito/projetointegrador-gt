@@ -1,6 +1,6 @@
 @media only screen and (min-width: 720px) {
 .button{
-    background-color: #000000; /* Green */
+    background-color: #0208bd; /* Green */
     border: 1px solid white;
     border-radius: 6px;
     color: white;
@@ -13,26 +13,30 @@
     cursor: pointer;
 }
 .button1:hover{
-    background-color: #ca95038c;
-    color: black;
-    border: 1px solid black;
+    background-color: #fdfdfd8c;
+    color: rgb(0, 9, 171);
+    border: 5px solid rgb(34, 89, 253);
 
 }
 .button2:hover{
-    background-color: #ca95038c;
-    color: black;
+    background-color: #fdfdfd8c;
+    color: rgb(0, 9, 171);
+    border: 5px solid rgb(34, 89, 253);
 }
 .button3:hover{
-    background-color: #ca95038c;
-    color: black;
+    background-color: #fdfdfd8c;
+    color: rgb(0, 9, 171);
+    border: 5px solid rgb(34, 89, 253);
 }
 .button4:hover{
-    background-color: #ca95038c;
-    color: black;
+    background-color: #fdfdfd8c;
+    color: rgb(0, 9, 171);
+    border: 5px solid rgb(34, 89, 253);
 }
 .button5:hover{
-    background-color: #ca95038c;
-    color: rgb(0, 0, 0);
+    background-color: #fdfdfd8c;
+    color: rgb(0, 9, 171);
+    border: 5px solid rgb(34, 89, 253);
 }
 .logo{
     text-align: center;
@@ -119,15 +123,17 @@ img{
 }
 .titulos{
     margin-left: 205px;
-    border: 6px solid rgb(236, 220, 4);
-    border-radius: 10px;    
+    border: 6px solid rgb(34, 89, 253);
+    border-radius: 10px;
+    color: #0208bd;    
 }
 
- /* Estilizar o rodapé */
+
  footer {
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 100px;
     text-align: center;
+    color: black;
   }
    
   }

@@ -1,6 +1,6 @@
-@media only screen and (min-width: 720px) {
+/* @media only screen and (min-width: 720px) { */
 .button{
-    background-color: #000000; /* Green */
+    background-color: #0208bd; /* Green */
     border: 1px solid white;
     border-radius: 6px;
     color: white;
@@ -13,9 +13,15 @@
     cursor: pointer;
 }
 .button:hover{
-    background-color: #ca95038c;
-    color: black;
-    border: 1px solid black;
+    background-color: #fffffffd;
+    color: #0208bd;
+    border: 5px solid rgb(45, 68, 243);
+    padding-top: 20px;
+}
+main{
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right:20%;
 }
 .logo{
     text-align: center;
@@ -24,12 +30,12 @@
     text-align: center;
 }
 body{
-    /* margin: 0px 50px 20px 0px;
-    margin-left: 20px; */
-    background-image: url("../imagens/colmeia.png");
-    background-repeat: no-repeat;    
-    background-position: right top;
- 
+    margin: 0px 50px 20px 0px;
+    margin-left: 20px;
+    background-image: url("../imagem_pi/carteiratrab.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;    
+    padding-top: 30px;
 }
 div{
     background-color: rgba(127, 255, 212, 0);
@@ -37,8 +43,14 @@ div{
   
 }
 img{
-    width: 90%;
-    height: auto;    
+    width: 70%;
+    height: auto;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.48);
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 200px;
+     
 }
 
 .fonte1, .fonte2{
@@ -46,10 +58,15 @@ img{
     text-align: justify;
     margin-left: 2px;
     margin-right: 2px;
+    background-color: rgba(255, 255, 255, 0.729);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .tituloindex1, .tituloindex2{
-    color: rgb(250, 206, 8); background-color: rgba(2, 2, 2, 0.945);
+    color: rgb(231, 254, 255); background-color: #0208bd;
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 50px;
@@ -64,5 +81,5 @@ img{
 
 
 
-}
+/* } */
 /* fim do Responsive Web Design - Media Queries */

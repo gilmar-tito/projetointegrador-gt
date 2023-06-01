@@ -1,25 +1,45 @@
-@media only screen and (min-width: 380px) {
-body{
+/* @media only screen and (min-width: 720px) { */
+
+body {
     background-color: cornsilk;
     padding: 20px;
-    margin: 20px;
-    border:5px solid;
-    margin: 0px 300px 50px 0px;
+    margin: 100px;
+    margin: 50px 300px 50px 50px;
     margin-left: 300px;
-    
+    border-radius: 100%; 
+
 }
-label, input, button{
-    display:block;
+
+ main {
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.div_formulario{
+    border: 1px solid black;
+    border-radius: 6px;     
+    background-color: rgba(255, 255, 255, 0.729);
+    padding: 20px;    
+}
+
+label,input, button {
+    display: block;
     border-radius: 60px;
     width: 100%;
 }
+
 textarea {
-border-radius: 100px;
-width: 100%;
+    border-radius: 100px;
+    width: 100%;
 }
 
-button{
+button {
     background-color: crimson;
     color: azure;
+
+
+
 }
-}
+
+/* } */

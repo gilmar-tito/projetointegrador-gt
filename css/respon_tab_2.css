@@ -9,7 +9,11 @@
     header{
         text-align: center;
     }
-    
+    main{
+        margin-top: 50px;
+        padding-left: 20%;
+        padding-right:20%;
+    }
     .button{
         background-color: #000000; /* Green */
         border: 1px solid white;
