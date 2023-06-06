@@ -1,4 +1,4 @@
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 380px) {
     body{
         width: 90%;
     }
@@ -49,15 +49,22 @@
         text-align: justify;        
     }
 
-    img{
-        width: 80%;
-        height: auto;    
+  
+
+    .img_logo{
+        align-items: center;
+        height: 30%;
+        background-color: rgba(255, 255, 255, 0.48);
+    
+    
     }
 
-    .logo{
-        align-items: center;
-        margin: 0 auto;
-    }
+        .img_roda{
+            align-items: center;
+            height: 30%;
+            background-color: rgba(255, 255, 255, 0.48);
+
+        }
 
     .passo1{
         font-size: 20px;
@@ -94,6 +101,9 @@
 .passo1, .passo2, .passo3{
     padding: 10px;
 }
+ 
+ }
 
-}
+
+
 /* Fim Responsive Web Design - Media Queries para celular */

@@ -52,7 +52,7 @@ body{
   
 }
 div{
-    background-color: rgba(127, 255, 212, 0);
+    background-color: rgba(127, 255, 212, 0.035);
 
   
 }
@@ -69,7 +69,7 @@ img{
 }
 
 .header {
-    background-color: #f1f1f1;
+    background-color: #f1f1f188;
     padding: 30px;
     text-align: center;
     font-size: 35px;  
@@ -114,15 +114,15 @@ img{
 
 .logo{
     position: absolute;
-    left: 0;
+    left: 25px;
     margin-left: 25px;
-    height: 135px;
+    height: 150px;
     border: 6px solid white;
     border-radius: 10px;
     
 }
 .titulos{
-    margin-left: 205px;
+    margin-left: 200px;
     border: 6px solid rgb(34, 89, 253);
     border-radius: 10px;
     color: #0208bd;    

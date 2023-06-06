@@ -27,10 +27,16 @@ input,textarea{
 }
 form{
     padding: 20px;
+    padding-right: 20px;
     margin: 20px;
     border:2px solid;  
     border-radius: 6px;
     background-color: rgba(45, 68, 243, 0.76);
 
+}
+
+H2{
+    background-color: aliceblue;
+    text-align: center;
 }
   
