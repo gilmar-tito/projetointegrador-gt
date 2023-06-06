@@ -1,4 +1,4 @@
-/* @media only screen and (min-width: 720px) { */
+ @media only screen and (min-width: 380px) { 
 .button{
     background-color: #0208bd; /* Green */
         border: 2px solid white;
@@ -44,7 +44,7 @@ div{
   
 }
 .img_logo{
-    width: 500px;
+    width: 80%;
     height: auto;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.515);
@@ -53,7 +53,7 @@ div{
 }
 
 .img_roda{
-    width: 500px;
+    width: 40%;
     height: auto;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.515);
