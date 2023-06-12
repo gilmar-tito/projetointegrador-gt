@@ -1,42 +1,93 @@
-body{
+body {
     background-color: cornsilk;
-    padding: 20px;
-    margin: 20px;
-   
-    
 }
-label, button{
-    display:block;
+
+.button {
+    background-color: rgba(243, 203, 25, 0.77);
+    /* Green */
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 3px 0px;
+    cursor: pointer;
+    width: 250px;
+}
+
+label,
+button {
+    display: block;
     border-radius: 15px;
     color: rgb(255, 255, 255);
     align-items: center;
 }
-textarea{
-border-radius: 15px;
+
+textarea {
+    border-radius: 15px;
 
 }
-button{
+
+button {
     background-color: crimson;
     color: azure;
 }
-input,textarea{
-    width: 90%;
-    margin-left: 50px;
-    border-radius: 15px;  
-     
+
+input,
+textarea {
+    width: 60%;
+    /*margin-left: 50px;*/
+    border-radius: 15px;
+
 }
-form{
-    padding: 20px;
-    padding-right: 20px;
-    margin: 20px;
-    border:2px solid;  
+
+main {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+
+form {
+    margin: 0 auto;
+    padding: 8px;
+    padding-right: 0px;
+    border: 2px solid;
     border-radius: 6px;
-    background-color: rgba(45, 68, 243, 0.76);
-
+    background-color: rgba(0, 143, 253, 0.688);
+    align-items: center;
+    width: 45%;
+    text-align: center;
 }
 
-H2{
+.botao_enviar {
+    margin: 0 auto;
+}
+
+H2 {
     background-color: aliceblue;
     text-align: center;
 }
-  
+
+.button button6 {
+    background-color: rgba(243, 203, 25, 0.77);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.559);
+}
+
+@media only screen and (max-width: 851px) {
+
+    input,
+    textarea {
+        width: 80%;
+
+
+    }
+}

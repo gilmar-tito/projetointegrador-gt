@@ -1,10 +1,10 @@
-@media only screen and (min-width: 720px) {
-.button{
-    background-color: #0208bd; /* Green */
-    border: 1px solid white;
-    border-radius: 6px;
+.button {
+    background-color: #040dfe;
+    /* Green */
+    border: 3px solid white;
+    border-radius: 10px;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -12,130 +12,156 @@
     margin: 3px 1px;
     cursor: pointer;
 }
-.button1:hover{
-    background-color: #fdfdfd8c;
+
+.button1:hover {
+    background-color: #fdfdfdfd;
     color: rgb(0, 9, 171);
     border: 5px solid rgb(34, 89, 253);
 
 }
-.button2:hover{
-    background-color: #fdfdfd8c;
+
+.button2:hover {
+    background-color: #fdfdfddf;
     color: rgb(0, 9, 171);
     border: 5px solid rgb(34, 89, 253);
 }
-.button3:hover{
-    background-color: #fdfdfd8c;
+
+.button3:hover {
+    background-color: #fdfdfd;
     color: rgb(0, 9, 171);
     border: 5px solid rgb(34, 89, 253);
 }
-.button4:hover{
-    background-color: #fdfdfd8c;
+
+.button4:hover {
+    background-color: #fdfdfd;
     color: rgb(0, 9, 171);
     border: 5px solid rgb(34, 89, 253);
 }
-.button5:hover{
-    background-color: #fdfdfd8c;
+
+.button5:hover {
+    background-color: #fdfdfd;
     color: rgb(0, 9, 171);
     border: 5px solid rgb(34, 89, 253);
 }
-.logo{
+
+.logo {
     text-align: center;
-}        
-.botoes{
+}
+
+.botoes {
     text-align: center;
 }
-body{
+
+body {
     margin: 0px 50px 20px 0px;
     margin-left: 20px;
     /* background-image: url("../"); */
     /* background-repeat: no-repeat;     */
-  
+
 }
-div{
+
+div {
     background-color: rgba(127, 255, 212, 0.035);
 
-  
-}
-img{
-    height: 100%;
-    width: auto;
 }
 
-.fonte1,.fonte2 {
+.fonte1,
+.fonte2 {
     font-size: 30px;
-    text-align: justify;
-    margin-left: 250px;
-    margin-right: 250px;
+    text-align: center;
+
 }
 
 .header {
     background-color: #f1f1f188;
-    padding: 30px;
+    /* padding: 30px;*/
     text-align: center;
-    font-size: 35px;  
-  }
-  
- 
-.passo1{
+    font-size: 35px;
+}
+
+
+.passo1 {
     font-size: 28px;
-    text-align: justify ;
+    text-align: justify;
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 20px;
     background-color: rgba(168, 251, 251, 0.419);
     border: 5px solid white;
     border-radius: 6px;
-}  
+}
 
-.passo2{
+.passo2 {
     font-size: 28px;
-    text-align: justify ;
+    text-align: justify;
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 20px;
     background-color: rgba(145, 236, 250, 0.842);
     border: 5px solid white;
     border-radius: 6px;
-    
-} 
-.passo3{
+
+}
+
+.passo3 {
     font-size: 28px;
-    text-align: justify ;
+    text-align: justify;
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 20px;
     background-color: rgba(1, 183, 255, 0.633);
     border: 5px solid white;
     border-radius: 6px;
-} 
-.passo1, .passo2, .passo3{
+}
+
+.passo1,
+.passo2,
+.passo3 {
     padding: 10px;
 }
 
-.logo{
+.logo {
     position: absolute;
     left: 25px;
     margin-left: 25px;
     height: 150px;
     border: 6px solid white;
     border-radius: 10px;
-    
+
 }
-.titulos{
-    margin-left: 200px;
+
+.titulos {
+    /*margin-left: 200px;*/
     border: 6px solid rgb(34, 89, 253);
     border-radius: 10px;
-    color: #0208bd;    
+    color: #0208bd;
+    background-color: #fdfdfd;
 }
 
-.fundo1{background-color: rgb(255, 255, 255);}
-
-
- footer {
+footer {
     background-color: #f1f1f1;
-    padding: 100px;
+    padding: 80px;
     text-align: center;
     color: black;
-  }
-   
-  }
+
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        margin: 0px auto;
+        margin-left: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .button {
+        width: 190px;
+    }
+
+    .titulos {
+        font-size: 20px;
+    }
+
+}

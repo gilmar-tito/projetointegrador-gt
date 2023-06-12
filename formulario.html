@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Provectus - Página para preencher formulário">
     <title>Document</title>
     <link rel="stylesheet" href="./css/form_cadastro.css">
     <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="stylesheet" href="./css/responsivo.css">
+
+    <style>
+        .button4 {
+            background-color: #fffffffd;
+            color: #0208bd;
+        }
+
+        .button6 {
+            background-color: #f5c61dfd;
+            color: #0208bd;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <div class="botoes">
-            <a class="button button1" href="index.html">HOME</a>
+            <a class="button button1" href="index.html">INÍCIO</a>
             <a class="button button2" href="maketingpessoal.html">MARKETING PESSOAL</a>
-            <a class="button button3" href="fazer_cadastro.html">DICAS DE CADASTRO</a>  
-            <a class="button button5" href="duvidas.html">DEIXA SUAS DÚVIDAS</a>     
+            <a class="button button3" href="fazer_cadastro.html">DICAS DE CADASTRO</a>
+            <a class="button button4" href="formulario.html">CADASTRO</a>
+            <a class="button button5" href="duvidas.html">DEIXA SUAS DÚVIDAS</a>
+            <a class="button button6" href="empresas_acesso.html">ACESSO EMPRESAS</a>
         </div>
-        </header>
+    </header>
 
-    <form id="myform">
-        <label id="lname">NOME:</label>
-        <input type="text" id="iname" name="name" required><BR><BR>
+    <main>
+        <form id="myform">
+            <label id="lname">NOME:</label>
+            <input type="text" id="iname" name="name" required><BR><BR>
 
-        <label id="cpf">CPF:</label>
-        <input type="text" id="CPF" name="CPF" required><BR><BR>
-        
-        <label id="form">FORMAÇÃO:</label>
-        <textarea id="FORMAÇÃO" name="FORMAÇÃO" ></textarea><br><br>
+            <label id="cpf">CPF:</label>
+            <input type="text" id="CPF" name="CPF" required><BR><BR>
 
-        <label id="name">ULTIMO LOCAL DE TRABALHO:</label>
-        <input type="text" id="01" name="ULTIMO LOCAL DE TRABALHO" required><BR><BR>
+            <label id="form">FORMAÇÃO:</label>
+            <textarea id="FORMAÇÃO" name="FORMAÇÃO"></textarea><br><br>
 
-        <label id="labe_tcontato">TELEFONE PARA CONTATO:</label>
-        <input type="text" id="02" name="TELEFONE PARA CONTATO" required><BR><BR>
-        
-        <label id="label_cursos">CURSOS COMPLEMENTARES:</label>
-        <textarea  id="input_cursos" name="CURSOS COMPLEMENTARES" ></textarea><br><br>
-        
-        <button type="submit">ENVIAR</button>
+            <label id="name">ULTIMO LOCAL DE TRABALHO:</label>
+            <input type="text" id="01" name="ULTIMO LOCAL DE TRABALHO" required><BR><BR>
 
-    </form>
+            <label id="labe_tcontato">TELEFONE PARA CONTATO:</label>
+            <input type="text" id="02" name="TELEFONE PARA CONTATO" required><BR><BR>
+
+            <label id="label_cursos">CURSOS COMPLEMENTARES:</label>
+            <textarea id="input_cursos" name="CURSOS COMPLEMENTARES"></textarea><br><br>
+
+            <button class="botao_enviar" type="submit">ENVIAR</button>
+
+        </form>
+    </main>
+
+
 
     <footer class="rodapé">
-        <img class="img_roda" src= "./imagem_pi/logoindex02.png" alt="rodapé"><br>
-        <h4 > © G-TITO - Web designer - 2023 - Rua Michel Perez Hadade - 106 - Vila Popular<br>
-                Cornélio Procópio - Pr <br>
-                Todos os direitos reservados </h4>
-              
+        <BR><BR>
+        <img class="img_redes" src="./imagem_pi/redes_sociais.png" alt="redes"><br><br><br>
+        <img class="img_roda" src="./imagem_pi/logoindex02.png" alt="rodapé"><br><br><br>
+        <h4> © G-TITO - Web designer - 2023 - Rua Michel Perez Hadade - 106 - Vila Popular<br>
+            Cornélio Procópio - Pr <br>
+            Todos os direitos reservados </h4>
+        <br><br>
+
     </footer>
 </body>
+
 </html>

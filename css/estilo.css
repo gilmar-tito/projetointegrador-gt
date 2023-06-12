@@ -1,65 +1,80 @@
- @media only screen and (min-width: 380px) { 
-.button{
-    background-color: #0208bd; /* Green */
-        border: 2px solid white;
-        border-radius: 6px;
-        color: white;
-        padding: 15px 40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 3px 1px;
-        cursor: pointer;
-        width: 250px;
+.button {
+    background-color: #0208bd;
+    /* Green */
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 3px 1px;
+    cursor: pointer;
+    width: 250px;
 }
-.button:hover{
+
+.button:hover {
     background-color: #fffffffd;
     color: #0208bd;
     border: 5px solid rgb(45, 68, 243);
     padding-top: 20px;
 }
-main{
+
+main {
     margin-top: 50px;
-    padding-left: 20%;
-    padding-right:20%;
+
 }
-.logo{
-    text-align: center;
-}        
-.botoes{
+
+.logo {
     text-align: center;
 }
-body{
+
+.botoes {
+    text-align: center;
+}
+
+body {
     margin: 0px 50px 20px 0px;
     margin-left: 20px;
     background-image: url("../imagem_pi/carteiratrab.jpg");
     background-repeat: repeat-y;
-    background-size: 150%;    
+    background-size: 150%;
     padding-top: 30px;
 }
-div{
+
+div {
     background-color: rgba(127, 255, 212, 0);
 
-  
+
 }
-.img_logo{
+
+.img_logo {
     width: 80%;
     height: auto;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.515);
-  
-     
+
+
 }
 
-.img_roda{
+.img_roda {
     width: 40%;
     height: auto;
     align-items: center;
-    background-color: rgba(240, 248, 255, 0.515);
+
 }
 
-.fonte1, .fonte2, .fonte3{
+.img_redes {
+    width: 20%;
+    height: auto;
+    align-items: center;
+
+}
+
+.fonte1,
+.fonte2,
+.fonte3 {
     font-size: 30px;
     text-align: justify;
     margin-left: 2px;
@@ -71,21 +86,18 @@ div{
     padding-bottom: 50px;
 }
 
-.tituloindex1, .tituloindex2{
-    color: rgb(231, 254, 255); background-color: #0208bd;
+.tituloindex1,
+.tituloindex2 {
+    color: rgb(231, 254, 255);
+    background-color: #0208bd;
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 50px;
 
-}  
+}
 
 .rodapé {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
+
 }
-
-
-
-
-/* } */
-/* fim do Responsive Web Design - Media Queries */

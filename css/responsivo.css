@@ -1,14 +1,21 @@
-@media only screen and (max-width: 380px) {
-    body{
+@media only screen and (max-width: 780px) {
+    body {
         width: 90%;
     }
-    .logo, header{
+
+    .logo,
+    header {
         text-align: center;
-    
+
     }
- 
-    .button{
-        background-color: #0208bd; /* Green */
+
+    .button button6 {
+        background-color: gold;
+    }
+
+    .button {
+        background-color: #0208bd;
+        /* Green */
         border: 2px solid white;
         border-radius: 6px;
         color: white;
@@ -21,75 +28,88 @@
         cursor: pointer;
         width: 250px;
     }
-    .button:hover{
+
+    .button:hover {
         background-color: #ca74038c;
         color: #0208bd;
         border: 1px solid rgb(255, 255, 255);
     }
-    .tituloindex1, .tituloindex2, .titulo1, .titulo2, .titulo3{
-        color: rgb(231, 254, 255); background-color: #0208bd;
+
+    .tituloindex1,
+    .tituloindex2,
+    .titulo1,
+    .titulo2,
+    .titulo3 {
+        color: rgb(231, 254, 255);
+        background-color: #0208bd;
         margin-left: 2px;
         margin-right: 2px;
         margin-top: 50px;
-    
-    }  
 
-    .titulos{
+    }
+
+    .titulos {
         margin-left: 2px;
         border: 6px solid rgb(4, 228, 236);
         font-size: 20px;
-        border-radius: 10px;  
+        border-radius: 10px;
         text-align: center;
-     
+
     }
 
 
-    .fonte1, .fonte2, .fonte3, p{
+    .fonte1,
+    .fonte2,
+    .fonte3,
+    p {
         font-size: 18px;
-        text-align: justify;        
+        text-align: justify;
     }
 
-  
 
-    .img_logo{
+
+    .img_logo {
         align-items: center;
         height: 30%;
         background-color: rgba(255, 255, 255, 0.48);
-    
-    
+
+
     }
 
-        .img_roda{
-            align-items: center;
-            height: 30%;
-            background-color: rgba(255, 255, 255, 0.48);
+    .img_roda {
+        align-items: center;
+        height: 30%;
 
-        }
 
-    .passo1{
+    }
+
+
+
+    .passo1 {
         font-size: 20px;
-        text-align: justify ;
+        text-align: justify;
         margin-left: 2px;
         margin-right: 2px;
         margin-top: 20px;
         background-color: rgba(168, 251, 251, 0.419);
 
-    }  
-    
-    .passo2{
+    }
+
+    .passo2 {
         font-size: 20px;
-        text-align: justify ;
+        text-align: justify;
         margin-left: 2px;
         margin-right: 2px;
         margin-top: 20px;
         background-color: rgba(145, 236, 250, 0.842);
         border: 5px solid white;
         border-radius: 6px;
-        
-    } 
-    .passo3{
+
+    }
+
+    .passo3 {
         font-size: 20px;
-        text-align: justify ;
+        text-align: justify;
         margin-left: 2px;
         margin-right: 2px;
         margin-top: 20px;
@@ -97,12 +117,15 @@
         border: 5px solid white;
         border-radius: 6px;
 
+    }
+
+    .passo1,
+    .passo2,
+    .passo3 {
+        padding: 10px;
+    }
+
 }
-.passo1, .passo2, .passo3{
-    padding: 10px;
-}
- 
- }
 
 
 
