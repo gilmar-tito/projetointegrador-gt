@@ -4,6 +4,7 @@ body{padding: 0;
     margin: 0;
 
     background-color: rgb(253, 253, 253);
+   
 }
 
 
@@ -17,7 +18,7 @@ body{padding: 0;
 
     justify-content: center;
 
-    height: 100vh;
+    height: 60vh;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -37,7 +38,7 @@ body{padding: 0;
 
 .card-header {
 
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 
     opacity: 0.8;
 
@@ -49,7 +50,7 @@ body{padding: 0;
 
     content: "";
 
-    width: 70px;
+    width: 30px;
 
     height: 1px;
 
@@ -136,5 +137,16 @@ body{padding: 0;
     color: #f7e306;
 
     text-decoration: none;
+
+}
+
+.img_roda {
+    width: 30%;
+    height: auto;
+}
+
+.rodapé {
+    text-align: center;
+    margin-top: 50px;
 
 }

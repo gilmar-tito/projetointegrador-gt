@@ -1,8 +1,8 @@
 .button {
     background-color: #040dfe;
     /* Green */
-    border: 3px solid white;
-    border-radius: 10px;
+    border: 5px solid white;
+    border-radius: 6px;
     color: white;
     padding: 15px 12px;
     text-align: center;
@@ -53,10 +53,8 @@
 }
 
 body {
-    margin: 0px 50px 20px 0px;
+    margin: 0px 20px 50px 0px;
     margin-left: 20px;
-    /* background-image: url("../"); */
-    /* background-repeat: no-repeat;     */
 
 }
 
@@ -74,7 +72,6 @@ div {
 
 .header {
     background-color: #f1f1f188;
-    /* padding: 30px;*/
     text-align: center;
     font-size: 35px;
 }
@@ -86,7 +83,7 @@ div {
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 20px;
-    background-color: rgba(168, 251, 251, 0.419);
+    background-color: rgba(78, 237, 255, 0.613);
     border: 5px solid white;
     border-radius: 6px;
 }
@@ -97,7 +94,7 @@ div {
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 20px;
-    background-color: rgba(145, 236, 250, 0.842);
+    background-color: rgba(78, 237, 255, 0.613);
     border: 5px solid white;
     border-radius: 6px;
 
@@ -109,7 +106,7 @@ div {
     margin-left: 2px;
     margin-right: 2px;
     margin-top: 20px;
-    background-color: rgba(1, 183, 255, 0.633);
+    background-color: rgba(78, 237, 255, 0.613);
     border: 5px solid white;
     border-radius: 6px;
 }
@@ -131,20 +128,13 @@ div {
 }
 
 .titulos {
-    /*margin-left: 200px;*/
     border: 6px solid rgb(34, 89, 253);
     border-radius: 10px;
     color: #0208bd;
     background-color: #fdfdfd;
 }
 
-footer {
-    background-color: #f1f1f1;
-    padding: 80px;
-    text-align: center;
-    color: black;
 
-}
 
 @media only screen and (max-width: 360px) {
     body {

@@ -61,7 +61,7 @@
     .fonte1,
     .fonte2,
     .fonte3,
-    p {
+    p{
         font-size: 18px;
         text-align: justify;
     }
@@ -123,6 +123,18 @@
     .passo2,
     .passo3 {
         padding: 10px;
+    }
+    
+    .img_redes {
+        width: 50%;
+   
+    }    
+    .img_roda {
+        width: 60%;
+    }    
+
+    .form_emp_acesso    {
+        width: 100%;
     }
 
 }
