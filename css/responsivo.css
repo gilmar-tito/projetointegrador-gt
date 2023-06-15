@@ -1,6 +1,6 @@
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 260px) {
     body {
-        width: 90%;
+        width: 78%;
     }
 
     .logo,
@@ -15,7 +15,6 @@
 
     .button {
         background-color: #0208bd;
-        /* Green */
         border: 2px solid white;
         border-radius: 6px;
         color: white;

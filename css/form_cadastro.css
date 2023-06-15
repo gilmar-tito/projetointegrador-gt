@@ -3,11 +3,11 @@ body {
 }
 
 .button {
-    background-color: rgba(243, 203, 25, 0.77);
+    background-color: rgba(2, 53, 221, 0.93);
     /* Green */
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid rgb(255, 254, 254);
     border-radius: 6px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
     padding: 15px 12px;
     text-align: center;
     text-decoration: none;

@@ -11,6 +11,7 @@
     font-size: 20px;
     margin: 3px 1px;
     cursor: pointer;
+    width: 250px;
 }
 
 .button1:hover {
@@ -68,6 +69,13 @@ div {
     font-size: 30px;
     text-align: center;
 
+}
+
+.fonte10{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(78, 237, 255, 0.613);
+ 
 }
 
 .header {
@@ -134,7 +142,11 @@ div {
     background-color: #fdfdfd;
 }
 
-
+.img_logo {
+    width: 80%;
+    height: auto;
+    align-items: center;
+}
 
 @media only screen and (max-width: 360px) {
     body {
